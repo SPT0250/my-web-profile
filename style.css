@@ -10,8 +10,11 @@ body {
 .card {
   width: 300px;
   background-color: #162238;
-  border: 1px solid #263B59;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  border: 1px solid #38BDF8;
+  box-shadow:
+    0 0 5px #38BDF8,
+    0 0 15px #38BDF8,
+    0 0 30px rgba(56, 189, 248, 0.5);
   margin: 20px auto;
   padding: 20px;
   border-radius: 15px;
@@ -36,6 +39,7 @@ body {
 
 /* ภารกิจที่ 6: จัดสไตล์ bio */
 .bio {
+  text-align: center;
   color: #CBD5E1;
   font-size: 14px;
   line-height: 1.6;
@@ -54,4 +58,9 @@ header {
 
 header h1 {
   color: #38BDF8;
+}
+
+.S {
+    text-align: center;
+    font-size: 16px;
 }
